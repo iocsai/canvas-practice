@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Szivárvány négyzetek</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS reset -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+        <link rel="stylesheet" href="../style.css">
+        <!-- Bootstrap library -->
+        <script src="https://code.jquery.com/jquery.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <div>Rajzolj 17 színes téglalapot úgy, hogy az első teljesen kitölti a canvas-t
+            a színe hsla(360, 50%, 45%, 1) minden további téglalap összes csúcsa az előző 
+            téglalap csúcsaihoz képest 10-10 pixellel beljebb van minden további téglalap 
+            színének hue (a hsla első paramétere) értéke 360/17-del kisebb.
+        </div>
+        <canvas id="myCanvas" width="600" height="400">
+            <script type="text/javascript" src="script-rect-rainbow.js"></script>
+        </canvas>
+    </body>
+</html>

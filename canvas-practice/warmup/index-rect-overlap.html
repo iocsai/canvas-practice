@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Két átfedő négyzet</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS reset -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+        <link rel="stylesheet" href="../style.css">
+        <!-- Bootstrap library -->
+        <script src="https://code.jquery.com/jquery.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <div>
+            Rajzolj egy vörös négyzetet.
+            Rajzolj egy másik vörös négyzetet (ahányszor meghívod a fillRect függvényt, annyiszor rajzolni fog egy négyzetet).
+            Pozícionáld úgy a két négyzetet, hogy méretük 25%-ában átfedjenek egymással.
+            A második négyzet legyen kék (a fillRect() meghívása előtt változtasd meg a fillStyle értékét).
+            A két négyzet színe legyen félig átlátszó [rgba()].
+            A fillRect() függvényben csak változókat használj.
+        </div>
+        <canvas id="myCanvas" width="600" height="400">
+            <script type="text/javascript" src="script-rect-overlap.js"></script>
+        </canvas>
+    </body>
+</html>
