@@ -7,5 +7,5 @@ var canvas = document.getElementById('myCanvas');
 var context = canvas.getContext('2d');
 
 context.fillStyle = 'gold';
-context.fillRect(canvas.width * 3 / 4, canvas.height * 3 / 4, 
-        canvas.width / 4, canvas.height / 4);
+context.fillRect(canvas.width / 2, canvas.height / 2, 
+        canvas.width / 2, canvas.height / 2);
