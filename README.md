@@ -10,3 +10,7 @@ Practicing JavaScript programming on HTML canvas.
  - JavaScript
  - Apache NetBeans IDE 9.0
    - HTML5 Kit Version: 1.18.1
+
+# Live version
+
+https://iocsai.github.io/canvas-practice/
